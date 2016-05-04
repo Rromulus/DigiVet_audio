@@ -40,4 +40,4 @@ Save and exit the file by using Ctrl + X, then Ctrl + Y, followed by ENTER. Sinc
 ## Calling DigiVet
 Once the system has rebooted itself, log in and use the Applications Menu to navigate to the softphone called Linphone. This is located under Internet >  Linphone. The softphone will open with the appropriate SIP already entered, namely:  <sip:kasadaka@127.0.0.1>. Dial this number and the system should internally call DigiVet. 
 
-Of course a dongle can also be used to call DigiVet. Insert the dongle containing a simblock-free SIM-card and dial the phone number belonging to the SIM-card to access DigiVet.
+Of course a dongle can also be used to call DigiVet. Insert the dongle containing a simlock-free SIM-card and dial the phone number belonging to the SIM-card to access DigiVet.
