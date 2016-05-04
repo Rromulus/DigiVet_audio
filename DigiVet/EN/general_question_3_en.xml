@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<vxml version="2.0" xmlns="http://www.w3.org/2001/vxml" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  xsi:schemaLocation="http://www.w3.org/2001/vxml 
+   http://www.w3.org/TR/voicexml20/vxml.xsd">
+<menu>
+  <property name="inputmodes" value="dtmf"/>
+   <prompt>
+    <audio src="/audio/en/audiofiles_english/general_question_3_en.wav"/>
+   </prompt>
+   <choice dtmf="1" next="specific_question_3_1_en.xml"/>
+   <choice dtmf="2" next="decision_no_en.xml"/>
+
+  </menu>
+</vxml>
