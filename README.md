@@ -35,7 +35,7 @@ exten => _.,n,Vxml(http://127.0.0.1/DigiVet/EN/welcome.xml)
 ;14th line replacement
 exten => kasadaka,n,Vxml,(http://127.0.0.1/DigiVet/En/welcome.xml)
 
-Save and exit the file by using ctrl + X, then Ctrl + Y, followed by ENTER. Since the Asterisk file has been adjusted, we should now reboot the system. This can either be done manually or by typing the sudo reboot command in the Terminal. 
+Save and exit the file by using Ctrl + X, then Ctrl + Y, followed by ENTER. Since the Asterisk file has been adjusted, we should now reboot the system. This can either be done manually or by typing the sudo reboot command in the Terminal. 
 
 ## Calling DigiVet
 Once the system has rebooted itself, log in and use the Applications Menu to navigate to the softphone called Linphone. This is located under Internet >  Linphone. The softphone will open with the appropriate SIP already entered, namely:  <sip:kasadaka@127.0.0.1>. Dial this number and the system should internally call DigiVet. 
