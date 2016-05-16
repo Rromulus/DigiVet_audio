@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<vxml version = "2.1">
-<form id="CallTransfer">
-  <transfer name="MyCall" dest="tel:+31630798269" bridge="true" >
-  </transfer>
-</form>
-</vxml>
