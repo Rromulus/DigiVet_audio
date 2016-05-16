@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<vxml version="2.0" xmlns="http://www.w3.org/2001/vxml" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  xsi:schemaLocation="http://www.w3.org/2001/vxml 
+   http://www.w3.org/TR/voicexml20/vxml.xsd">
+<menu>
+  <property name="inputmodes" value="dtmf"/>
+   <prompt>
+    <audio src="/audio/fr/audiofiles_french/cow_1_fr.wav"/>
+    <audio src="/audio/fr/audiofiles_french/cow_2_fr.wav"/>
+    <audio src="/audio/fr/audiofiles_french/choice_fr.wav"/>
+   </prompt>
+   <choice dtmf="1" next="/DigiVet/FR/specific_question_1_1_fr.xml"/>
+   <choice dtmf="2" next="/DigiVet/FR/general_question_2_fr.xml"/>
+</menu>
+</vxml>
+
